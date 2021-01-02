@@ -9,7 +9,7 @@ function RenderCampsite({campsite}) {
                 featuredTitle={campsite.name}
                 image={require('./images/react-lake.jpg')}>
                 <Text style={{margin:10}}>
-                    {campsite.descriptiom}
+                    {campsite.description}
                 </Text>
             </Card>
         );
